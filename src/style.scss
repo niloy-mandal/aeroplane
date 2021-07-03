@@ -1,0 +1,57 @@
+:root {
+  --primary: azure;
+  --secondary: #041425;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: var(--secondary);
+  padding: 0.5rem 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: azure;
+  padding: 0.8rem;
+  margin-left: 1rem;
+  &:hover {
+    background: var(--primary);
+    color: var(--secondary);
+    border: none;
+    border-radius: 15px;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+span {
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  color: azure;
+  display: flex;
+  cursor: pointer;
+  h1 {
+    font-weight: 900;
+    color: darkorange;
+    align-items: center;
+    font-family: "Tourney", cursive;
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
