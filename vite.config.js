@@ -3,6 +3,6 @@ module.exports = {
     publicDir: 'static',
     base: './',
     build:{
-        outDir: '../dist/',
+        outDir: '../',
     }
 }
